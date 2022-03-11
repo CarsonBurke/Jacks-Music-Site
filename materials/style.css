@@ -17,7 +17,7 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    --primary: hsl(0, 88%, 44%);
+    --primary: hsl(290, 91%, 46%);
     --primaryShade: hsl(0, 0%, 100%);
     --secondaryShade: hsl(200, 20%, 97%);
     --tertiaryShade: hsl(240, 18%, 20%);
@@ -525,7 +525,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .heroBackgroundImage {
-    background: linear-gradient( rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%), url("images/image1.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%), url("images/heroBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1007,7 +1007,9 @@ body::-webkit-scrollbar-thumb:hover {
 .footerLeft {
     display: flex;
     flex-wrap: wrap;
-    width: fit-content;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
     flex-direction: column;
 }
 
@@ -1021,6 +1023,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .footerTopper {
     display: flex;
+    justify-content: center;
     height: fit-content;
     align-items: center;
 }
