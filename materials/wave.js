@@ -1,6 +1,6 @@
 // Default variables
 
-let defaultStrength = 0.4
+let defaultStrength = 0.2
 let defaultFadeAmount = 250
 let defaultWaveSpeed = 1
 
